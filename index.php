@@ -8,7 +8,7 @@
 </head>
 <body>
     <b><p style="font-size: 18">Annuitätenkreditrechner</p></b>
-    <form action="index.php" method="post">
+    <form action="index.php" method="get">
         
         Kredit (in €): <br>
 		<input type="int" name="kredit"/> <br>
@@ -19,10 +19,10 @@
         <input type="Submit"/>
     </form>
     <?php
-    $kredit =$_POST [kredit];
+    $kredit =$_GET ["kredit"];
     $kreditRest = $kredit;
-    $zins =$_POST [zins];
-    $annuitaet =$_POST [annuitaet];
+    $zins =$_GET ["zins"];
+    $annuitaet =$_GET ["annuitaet"];
     $laufzeit = 0;
 	$zinszahlung = 0;
 	$tilgung = 0;
