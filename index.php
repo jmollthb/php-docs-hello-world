@@ -10,7 +10,7 @@
     <b><p style="font-size: 18">Annuitätenkreditrechner</p></b>
     <form action="index.php" method="get">
         
-        Kredit (in €): <br>
+        Kreditwert (in €): <br>
 		<input type="int" name="kredit"/> <br>
         Zins (in%): <br>
 		<input type="int" name="zins"/> <br>
