@@ -17,6 +17,9 @@
         Jährliche Annuität (in €): <br>
 		<input type="int" name="annuitaet"/> <br>
         <input type="Submit"/>
+        <br>
+        Autor: Jan Moll <br>
+        <br>
     </form>
     <?php
     $kredit =$_GET ["kredit"];
