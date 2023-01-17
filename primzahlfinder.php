@@ -17,7 +17,7 @@
     <body>
       <h1>PHP Abgabe</h1>
       <p>Primzahlenfinder für einen vorgegebenen Bereich</p><br>
-      	<form action="primzahlenFinder.php" method="get">
+      	<form action="primzahlfinder.php" method="get">
 			Untergrenze (inklusiv): <input type="number" name="untergrenze" min="1"><br>
 			Obergrenze (exklusiv):  <input type="number" name="obergrenze" min="1"><br>
 			<input type="submit">
