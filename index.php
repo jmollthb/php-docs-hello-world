@@ -8,7 +8,7 @@
 </head>
 <body>
     <b><p style="font-size: 18">Annuitätenkreditrechner</p></b>
-    <form action="abgabe_tilgungsplan.php" method="post">
+    <form action="index.php" method="post">
         
         Kredit (in €): <br>
 		<input type="int" name="kredit"/> <br>
